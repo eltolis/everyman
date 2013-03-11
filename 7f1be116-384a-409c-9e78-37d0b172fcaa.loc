@@ -1,0 +1,17 @@
+{
+    "objects": {
+        "eee": "5555", 
+        "aaa": {
+            "chtoSpawn": 100, 
+            "desc": "aaablablablaaaa"
+        }, 
+        "bbb": {
+            "chtoSpawn": 50, 
+            "desc": "bbbblablabbb"
+        }, 
+        "ccc": "3333", 
+        "ddd": "4444"
+    }, 
+    "locations": {}, 
+    "people": {}
+}

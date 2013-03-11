@@ -1,0 +1,8 @@
+Taxi driver
+Farmer
+Accountant
+Geologist
+Marine
+Policeman
+Fire fighter
+Pilot

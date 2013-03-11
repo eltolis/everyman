@@ -1,0 +1,14 @@
+{
+    "hasguntraining": -1,
+    "gunproficient": -1,
+    "issick": -1,
+    "ispoisoned": -1,
+		"pretty": -1,
+		"fastrunner": -1,
+		"slowrunner": -1,
+		"fat": -1,
+		"small": -1,
+		"thin": -1,
+		"friendly": 20,
+		"health": 100
+}

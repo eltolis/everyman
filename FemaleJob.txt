@@ -1,0 +1,8 @@
+Model
+Actress
+Cheerleader
+Accountant
+Cashier at retail shop
+Cashier at supermarket
+Cashier at shoe store
+Karaoke singer
