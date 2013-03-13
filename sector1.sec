@@ -1,0 +1,23 @@
+{
+    "points": {
+        "e48834e7-1d42-4b9a-ae6d-0e8f034fdcff": {
+            "forward": "ccd2de5a-87ee-48dc-91b4-7863b75f9773", 
+            "back": "5a5201a7-76cc-4210-b66c-12ed193aded7"
+        }, 
+        "920bfd21-d8ff-4551-ab04-bd9f558a944d": {
+            "forward": "5a5201a7-76cc-4210-b66c-12ed193aded7", 
+            "back": "a5b6405e-cc61-4bb4-8aa5-45e259506e53"
+        }, 
+        "a5b6405e-cc61-4bb4-8aa5-45e259506e53": {
+            "forward": "920bfd21-d8ff-4551-ab04-bd9f558a944d"
+        }, 
+        "ccd2de5a-87ee-48dc-91b4-7863b75f9773": {
+            "back": "e48834e7-1d42-4b9a-ae6d-0e8f034fdcff"
+        }, 
+        "5a5201a7-76cc-4210-b66c-12ed193aded7": {
+            "forward": "e48834e7-1d42-4b9a-ae6d-0e8f034fdcff", 
+            "back": "920bfd21-d8ff-4551-ab04-bd9f558a944d"
+        }
+    }, 
+    "name": "sector1"
+}

@@ -28,6 +28,7 @@ import json
 #                                                                       (i gia multiple values     http://stackoverflow.com/questions/6159313/can-python-test-the-membership-of-multiple-values-in-a-list   )
 #                                       kai opou den xreiazetai pair Key : Value 8a vazw Value = -1
 #                                       8a to xrisimopoiw diladi to Key gia to PERK kai to Value gia to PROPERTY
+#                                       to dictionary den exei add()    http://stackoverflow.com/questions/1024847/add-to-a-dictionary-in-python
 
 name="babuski"
 prof=""

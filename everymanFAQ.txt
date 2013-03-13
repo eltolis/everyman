@@ -1,0 +1,95 @@
+			possible
+			values:
+
+
+guid
+
+guid	intersection
+
+guid
+
+-[NEXT]-----------------------------------
+
+guid	
+	
+-[NOW]------------------------------------
+	   |
+	   |	 		 exei:	guid
+nowguid	highway---intersection---	original .loc template name / lvl specific values (objects, players) / 
+	   |				connection to: before guid / next guid (or template name?) /
+	   |				future intersection, 3 / efoson einai intersection: intersection , 1 /
+-[BEFORE]---------------------------------
+
+guid
+
+
+====================================================================================================================
+
+WORK CHUNKS:
+------------------
+moveforward() # gia arxi 8a kalw to idio .loc template 
+		move2()
+			save to palio (den xreiazetai akoma) 
+				diavase mesa sto highway.loc gia to 100%chtospawn "highway" 
+					ftiakse ena kainourio guid
+						save to kainourio()
+							ready player one!
+								repeat (twra kane save to "palio")
+movebackward()
+
+------------------------
+
+makeSectorFile
+			
+			handle innodes file: "Pending sectors to be spawned"
+			how to join Sectors
+			
+						how to join lots of nodes referencing location templates for the side-road problem
+
+
+------------------------
+			implement visibility;
+
+			leave intersections for now!!! 
+			i'll worry about it later, i might implement SouthNorhtEastWest system, tiles, combinations with nodes, etc.
+			Visibility system will need to be revised then.
+
+------------------------
+
+make invetory obj;
+
+simple rndm no persistent pickup system; (see later)
+
+	save inventory() to disk first
+
+	load inventory()
+
+		make it extensible/add more player data?.
+
+------------------------
+
+persistent pickup.
+
+make sure vars stay with 'lvl';
+
+make sure vars get passed correct to next() previous() lvl;
+
+------------------------
+
+	implement health() 
+
+		DESC: "You feel ...."
+
+			implement hordes, zombie fighting;
+
+------------------------
+
+vale allo ena .loc template
+
+kai dwse % sto move fw bw ..()
+
+make sure guids sto move einai swsta
+
+...
+..
+.

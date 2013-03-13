@@ -11,7 +11,7 @@
 
 # imports
     # from <filename> <import function>
-from move2 import move2, see, goHighway, teleport
+from move2 import move2, see, teleport, movefw, initmove, movebw
 import glo                                  #gia ta glo prepei na to kanw etsi (xoris to from .. import * ) giati den douleuei    http://stackoverflow.com/questions/142545/python-how-to-make-a-cross-module-variable
 #import ppl
 from ppl import *
@@ -22,6 +22,7 @@ def move():
 
 # inits //logika DEN prepei na ginontai inits sto glo.py
 nowsee=""
+initmove()
 
 # main loop
 while 1:
@@ -29,12 +30,14 @@ while 1:
     print "you entered ", var
     if var=="q": break;
     #if var=="m": move()
-    if var=="w": move2()
+    if var=="w": move2()                # will be deprecated, along with f(x)
     if var=="s": see()
     if var=="c": chat()
     if var=="p": print getRndPerk()
-    if var=="l": print goHighway()
-    if var=="t": teleport()
+#    if var=="l": print goHighway()     # deprecated
+    if var=="t": teleport()             # will be replaced
+    if var=="f": movefw()
+    if var=="b": movebw()
 
 # exit main loop
 print "Good bye!"
